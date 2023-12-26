@@ -46,43 +46,44 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
 
+1.Create a New Project: Open Quartus and create a new project by selecting "File" > "New Project Wizard." Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA). 2.Create a New Design File: Once the project is created, right-click on the project name in the Project Navigator and select "Add New File." Choose "Verilog HDL File" or "VHDL File," depending on your chosen hardware description language. 3. Write the Combinational Logic Code:
 
+Open the newly created Verilog or VHDL file and write the code for your combinational logic. 4. Compile the Project: To compile the project, click on "Processing" > "Start Compilation" in the menu. Quartus will analyze your code, synthesize it into a netlist, and perform optimizations based on your target FPGA device. 5. Analyze and Fix Errors:
+
+If there are any errors or warnings during the compilation process, Quartus will display them in the Messages window. Review and fix any issues in your code if necessary. View the RTL diagram. 6. Verification: Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF". Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All.
+
+Give the Input Combinations according to the Truth Table amd then simulate the Output Waveform.
 
 ### PROGRAM 
-/*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Aravindan D
+RegisterNumber: 23013092 
 
+![Screenshot 2023-12-26 233712](https://github.com/Aravindan2006/Exp-6/assets/151760062/5aab8c4b-fb70-44b2-a020-8553c6a2b1cb)
 
-
-
+![Screenshot 2023-12-26 233738](https://github.com/Aravindan2006/Exp-6/assets/151760062/c94ebe3f-c871-42cf-ad8e-915a2a91e9be)
 
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
+![Screenshot 2023-12-26 233813](https://github.com/Aravindan2006/Exp-6/assets/151760062/3f651bc8-994f-4d2a-a4ce-7ef64ceb659b)
 
-
-
-
-
-
+![Screenshot 2023-12-26 233843](https://github.com/Aravindan2006/Exp-6/assets/151760062/199c45a7-5518-41b9-b6fd-754ac165715e)
 
 
 ### TIMING DIGRAMS FOR COUNTER  
 
+![Screenshot 2023-12-26 233909](https://github.com/Aravindan2006/Exp-6/assets/151760062/0f9fb372-3376-4fc8-9074-aa2e9070a4a7)
 
-
+![Screenshot 2023-12-26 233934](https://github.com/Aravindan2006/Exp-6/assets/151760062/efa10058-48d8-44ee-a259-80e8fd239732)
 
 
 ### TRUTH TABLE 
 
+![Screenshot 2023-12-26 234029](https://github.com/Aravindan2006/Exp-6/assets/151760062/ff3dc03d-b52e-4f24-8d71-523accfda620)
 
-
-
-
+![Screenshot 2023-12-26 234051](https://github.com/Aravindan2006/Exp-6/assets/151760062/b7b1f6f9-b781-409e-b35a-492dc1cefe2c)
 
 ### RESULTS 
+Thus, the 4-bit UP COUNTER and DOWN COUNTER are designed and the truth tables are verified using quartus software.
